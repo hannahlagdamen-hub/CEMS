@@ -1,0 +1,127 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background-color: #003366;
+    color: #fff;
+    padding: 15px 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-size: 1.6rem;
+}
+
+.user-info {
+    font-size: 0.95rem;
+}
+
+.user-info a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+.user-info a.btn-logout:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    padding: 20px;
+    min-height: 70vh;
+}
+
+footer {
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #0066cc;
+    color: #fff;
+}
+
+/* Buttons */
+a, button, input[type=submit] {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #0066cc;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+a:hover, button:hover, input[type=submit]:hover {
+    background-color: #004d99;
+}
+
+/* Forms */
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Flash messages */
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.success {
+    color: green;
+    margin-bottom: 10px;
+}
+
+/* Campus buttons */
+.campus-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #0066cc;
+    color: #fff;
+    margin: 5px 5px 15px 0;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.campus-btn:hover {
+    background-color: #004d99;
+}
