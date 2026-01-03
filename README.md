@@ -1,13 +1,63 @@
-CEMS (CALENDAR EVENTS MANAGEMENT SYSTEM FOR SULTAN KUDARAT 
-STATE UNIVERSITY ISULAN CAMPUS)
+# 📅 Calendar Event Management System
 
-Members: 
+The **Calendar Event Management System (CEMS)** is a web-based system designed to help the
+**University Student Government (USG)** and **Campus Organizations** efficiently manage events,
+monitor attendance, and organize academic and organizational activities.
 
-Alico, Mitch Micah B.
-Apang, Shella A. 
-Dela Cruz, Hannah Joy 
-Dela Cruz, Vanessa Kaye A.
-Diyo, Sofia Lorraine 
-Lagdamen, Hannah S.
-Magollado, Raniel
-Paranga, Justine Miles
+This system was developed for **academic purposes**.
+
+
+
+## 🎯 Objectives
+
+- Provide a centralized calendar for campus and USG events
+- Improve event monitoring and attendance management
+- Help organizations efficiently manage activities
+- Generate reports and export attendance data
+
+
+## 🚀 Features
+
+- User authentication (USG Admin & Campus Organization)
+- Event creation, editing, and deletion
+- Calendar view of events
+- Attendance upload and management
+- Export attendance data to CSV
+- Event monitoring and analytics
+- Role-based access control
+- Responsive user interface
+
+
+
+## 👥 User Roles
+
+### USG (Administrator)
+- Monitor all campus events
+- Manage events and organizations
+- View reports and analytics
+- Upload and export attendance
+
+### Campus Organization
+- Create and manage events
+- Upload and view attendance
+- Export attendance records
+- View calendar activities
+
+
+
+## 🛠 Technologies Used
+
+- PHP (CodeIgniter 4)
+- MySQL
+- HTML, CSS, JavaScript
+- Bootstrap
+- FullCalendar
+- XAMPP
+
+
+
+## ⚙️ Installation
+
+1. Clone the repository
+   bash
+   git clone https://github.com/your-username/calendar-event-management-system.git
